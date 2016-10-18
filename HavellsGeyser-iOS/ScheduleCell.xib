@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="schedulecell" id="KGk-i7-Jjw" customClass="ScheduleCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Mon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fB2-6j-5YG">
+                        <rect key="frame" x="16" y="14" width="25" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" text="From: 13:03" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Tf-Sl-eaz">
+                        <rect key="frame" x="49" y="14" width="68" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Dur: 3 mins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp5-JM-ARq">
+                        <rect key="frame" x="125" y="14" width="70" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="Temp: 30deg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d25-aj-FNK">
+                        <rect key="frame" x="203" y="14" width="75" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="heightClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </variation>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLf-BB-vfL">
+                        <rect key="frame" x="286" y="8" width="27" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="LLf-BB-vfL" secondAttribute="height" multiplier="1:1" id="hf4-Vd-Qxv"/>
+                        </constraints>
+                        <state key="normal" title="Button" backgroundImage="geyser_checked"/>
+                        <connections>
+                            <action selector="deleteSchedule:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="G9p-Ms-TrI"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="tp5-JM-ARq" firstAttribute="leading" secondItem="1Tf-Sl-eaz" secondAttribute="trailing" constant="8" id="0ro-dQ-PHN"/>
+                    <constraint firstItem="LLf-BB-vfL" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="1" id="CJ2-J0-h1m"/>
+                    <constraint firstItem="d25-aj-FNK" firstAttribute="leading" secondItem="tp5-JM-ARq" secondAttribute="trailing" constant="8" id="ESm-UF-USG"/>
+                    <constraint firstItem="d25-aj-FNK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Evg-eH-kiW"/>
+                    <constraint firstItem="1Tf-Sl-eaz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Nw7-In-dGb"/>
+                    <constraint firstAttribute="bottom" secondItem="LLf-BB-vfL" secondAttribute="bottom" constant="8" id="OD6-tX-wVv"/>
+                    <constraint firstItem="1Tf-Sl-eaz" firstAttribute="leading" secondItem="fB2-6j-5YG" secondAttribute="trailing" constant="8" id="VX1-Nh-0SD"/>
+                    <constraint firstItem="fB2-6j-5YG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="boc-eu-Bku"/>
+                    <constraint firstItem="fB2-6j-5YG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="c5e-wZ-cMF"/>
+                    <constraint firstItem="LLf-BB-vfL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="jUt-RM-bR4"/>
+                    <constraint firstItem="tp5-JM-ARq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="k5t-1i-bng"/>
+                    <constraint firstItem="LLf-BB-vfL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="reP-By-mAn"/>
+                    <constraint firstItem="LLf-BB-vfL" firstAttribute="leading" secondItem="d25-aj-FNK" secondAttribute="trailing" constant="8" id="t4g-kg-eWc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dayLabel" destination="fB2-6j-5YG" id="PCd-8v-F7i"/>
+                <outlet property="durationLabel" destination="tp5-JM-ARq" id="H4T-aS-5dn"/>
+                <outlet property="temperatureLabel" destination="d25-aj-FNK" id="BZQ-4m-jcS"/>
+                <outlet property="timeLabel" destination="1Tf-Sl-eaz" id="T1b-tH-YJ4"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="geyser_checked" width="24" height="24"/>
+    </resources>
+</document>

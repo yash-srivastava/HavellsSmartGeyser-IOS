@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332689601DA257D20052F6B2 /* ScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326895E1DA257D20052F6B2 /* ScheduleCell.m */; };
+		332689611DA257D20052F6B2 /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3326895F1DA257D20052F6B2 /* ScheduleCell.xib */; };
+		332689661DA25E9A0052F6B2 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 332689651DA25E9A0052F6B2 /* Schedule.m */; };
+		332C2F071D8C052300256297 /* GeyserCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 332C2F061D8C052300256297 /* GeyserCommands.m */; };
+		339304DE1D8BD25B0039C3F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 339304DD1D8BD25B0039C3F0 /* main.m */; };
+		339304E11D8BD25B0039C3F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 339304E01D8BD25B0039C3F0 /* AppDelegate.m */; };
+		339304E41D8BD25B0039C3F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339304E31D8BD25B0039C3F0 /* ViewController.m */; };
+		339304E71D8BD25B0039C3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339304E51D8BD25B0039C3F0 /* Main.storyboard */; };
+		339304E91D8BD25B0039C3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339304E81D8BD25B0039C3F0 /* Assets.xcassets */; };
+		339304EC1D8BD25B0039C3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339304EA1D8BD25B0039C3F0 /* LaunchScreen.storyboard */; };
+		339304F71D8BD35E0039C3F0 /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 339304F61D8BD35E0039C3F0 /* TCPClient.m */; };
+		33AAA2781D92BEC9003E2F38 /* SchedulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AAA2771D92BEC9003E2F38 /* SchedulerViewController.m */; };
+		33C911671D90053000F01146 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C911661D90053000F01146 /* TimerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3326895D1DA257D20052F6B2 /* ScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleCell.h; sourceTree = "<group>"; };
+		3326895E1DA257D20052F6B2 /* ScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleCell.m; sourceTree = "<group>"; };
+		3326895F1DA257D20052F6B2 /* ScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleCell.xib; sourceTree = "<group>"; };
+		332689641DA25E9A0052F6B2 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		332689651DA25E9A0052F6B2 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		332C2F051D8C052300256297 /* GeyserCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeyserCommands.h; sourceTree = "<group>"; };
+		332C2F061D8C052300256297 /* GeyserCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeyserCommands.m; sourceTree = "<group>"; };
+		339304D91D8BD25B0039C3F0 /* HavellsGeyser-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HavellsGeyser-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339304DD1D8BD25B0039C3F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		339304DF1D8BD25B0039C3F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		339304E01D8BD25B0039C3F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		339304E21D8BD25B0039C3F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		339304E31D8BD25B0039C3F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		339304E61D8BD25B0039C3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		339304E81D8BD25B0039C3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339304EB1D8BD25B0039C3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		339304ED1D8BD25B0039C3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339304F51D8BD35E0039C3F0 /* TCPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPClient.h; sourceTree = "<group>"; };
+		339304F61D8BD35E0039C3F0 /* TCPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPClient.m; sourceTree = "<group>"; };
+		33AAA2761D92BEC9003E2F38 /* SchedulerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulerViewController.h; sourceTree = "<group>"; };
+		33AAA2771D92BEC9003E2F38 /* SchedulerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulerViewController.m; sourceTree = "<group>"; };
+		33C911651D90053000F01146 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		33C911661D90053000F01146 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339304D61D8BD25B0039C3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332689631DA25E820052F6B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				332689641DA25E9A0052F6B2 /* Schedule.h */,
+				332689651DA25E9A0052F6B2 /* Schedule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		339304D01D8BD25B0039C3F0 = {
+			isa = PBXGroup;
+			children = (
+				339304DB1D8BD25B0039C3F0 /* HavellsGeyser-iOS */,
+				339304DA1D8BD25B0039C3F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		339304DA1D8BD25B0039C3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339304D91D8BD25B0039C3F0 /* HavellsGeyser-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339304DB1D8BD25B0039C3F0 /* HavellsGeyser-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				332689631DA25E820052F6B2 /* Classes */,
+				339304F31D8BD30C0039C3F0 /* Helper */,
+				339304DF1D8BD25B0039C3F0 /* AppDelegate.h */,
+				339304E01D8BD25B0039C3F0 /* AppDelegate.m */,
+				339304E21D8BD25B0039C3F0 /* ViewController.h */,
+				339304E31D8BD25B0039C3F0 /* ViewController.m */,
+				339304E51D8BD25B0039C3F0 /* Main.storyboard */,
+				339304E81D8BD25B0039C3F0 /* Assets.xcassets */,
+				339304EA1D8BD25B0039C3F0 /* LaunchScreen.storyboard */,
+				339304ED1D8BD25B0039C3F0 /* Info.plist */,
+				339304DC1D8BD25B0039C3F0 /* Supporting Files */,
+				33C911651D90053000F01146 /* TimerViewController.h */,
+				33C911661D90053000F01146 /* TimerViewController.m */,
+				33AAA2761D92BEC9003E2F38 /* SchedulerViewController.h */,
+				33AAA2771D92BEC9003E2F38 /* SchedulerViewController.m */,
+				3326895D1DA257D20052F6B2 /* ScheduleCell.h */,
+				3326895E1DA257D20052F6B2 /* ScheduleCell.m */,
+				3326895F1DA257D20052F6B2 /* ScheduleCell.xib */,
+			);
+			path = "HavellsGeyser-iOS";
+			sourceTree = "<group>";
+		};
+		339304DC1D8BD25B0039C3F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				339304DD1D8BD25B0039C3F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		339304F31D8BD30C0039C3F0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				339304F51D8BD35E0039C3F0 /* TCPClient.h */,
+				339304F61D8BD35E0039C3F0 /* TCPClient.m */,
+				332C2F051D8C052300256297 /* GeyserCommands.h */,
+				332C2F061D8C052300256297 /* GeyserCommands.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339304D81D8BD25B0039C3F0 /* HavellsGeyser-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339304F01D8BD25B0039C3F0 /* Build configuration list for PBXNativeTarget "HavellsGeyser-iOS" */;
+			buildPhases = (
+				339304D51D8BD25B0039C3F0 /* Sources */,
+				339304D61D8BD25B0039C3F0 /* Frameworks */,
+				339304D71D8BD25B0039C3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HavellsGeyser-iOS";
+			productName = "HavellsGeyser-iOS";
+			productReference = 339304D91D8BD25B0039C3F0 /* HavellsGeyser-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339304D11D8BD25B0039C3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sivakumar  K R";
+				TargetAttributes = {
+					339304D81D8BD25B0039C3F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MH359V5RZ5;
+					};
+				};
+			};
+			buildConfigurationList = 339304D41D8BD25B0039C3F0 /* Build configuration list for PBXProject "HavellsGeyser-iOS" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339304D01D8BD25B0039C3F0;
+			productRefGroup = 339304DA1D8BD25B0039C3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339304D81D8BD25B0039C3F0 /* HavellsGeyser-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339304D71D8BD25B0039C3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339304EC1D8BD25B0039C3F0 /* LaunchScreen.storyboard in Resources */,
+				339304E91D8BD25B0039C3F0 /* Assets.xcassets in Resources */,
+				332689611DA257D20052F6B2 /* ScheduleCell.xib in Resources */,
+				339304E71D8BD25B0039C3F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339304D51D8BD25B0039C3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C911671D90053000F01146 /* TimerViewController.m in Sources */,
+				339304F71D8BD35E0039C3F0 /* TCPClient.m in Sources */,
+				339304E41D8BD25B0039C3F0 /* ViewController.m in Sources */,
+				332689661DA25E9A0052F6B2 /* Schedule.m in Sources */,
+				33AAA2781D92BEC9003E2F38 /* SchedulerViewController.m in Sources */,
+				332C2F071D8C052300256297 /* GeyserCommands.m in Sources */,
+				339304E11D8BD25B0039C3F0 /* AppDelegate.m in Sources */,
+				332689601DA257D20052F6B2 /* ScheduleCell.m in Sources */,
+				339304DE1D8BD25B0039C3F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		339304E51D8BD25B0039C3F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339304E61D8BD25B0039C3F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		339304EA1D8BD25B0039C3F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				339304EB1D8BD25B0039C3F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		339304EE1D8BD25B0039C3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339304EF1D8BD25B0039C3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339304F11D8BD25B0039C3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "HavellsGeyser-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chipmonk.HavellsGeyser-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		339304F21D8BD25B0039C3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "HavellsGeyser-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chipmonk.HavellsGeyser-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339304D41D8BD25B0039C3F0 /* Build configuration list for PBXProject "HavellsGeyser-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339304EE1D8BD25B0039C3F0 /* Debug */,
+				339304EF1D8BD25B0039C3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339304F01D8BD25B0039C3F0 /* Build configuration list for PBXNativeTarget "HavellsGeyser-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339304F11D8BD25B0039C3F0 /* Debug */,
+				339304F21D8BD25B0039C3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339304D11D8BD25B0039C3F0 /* Project object */;
+}

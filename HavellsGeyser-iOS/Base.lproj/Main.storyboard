@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Tic-15-45h">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--REGISTER-->
+        <scene sceneID="zRo-cf-JHK">
+            <objects>
+                <viewController id="w1r-uJ-hwB" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="skI-2n-7Rd"/>
+                        <viewControllerLayoutGuide type="bottom" id="UHn-0w-TsC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="la6-8q-MUP">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_bkg" translatesAutoresizingMaskIntoConstraints="NO" id="bmV-kx-FnK"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ZY-ZA-dpw">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_ssid" translatesAutoresizingMaskIntoConstraints="NO" id="6wW-w5-ABr"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Access point SSID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5wV-wC-pxI">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="AIRTEL_MF29_16B758" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="si4-5G-Uco">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="si4-5G-Uco" secondAttribute="height" multiplier="8:1" id="pQh-bg-0HN"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="si4-5G-Uco" firstAttribute="leading" secondItem="5wV-wC-pxI" secondAttribute="trailing" constant="38" id="57V-ge-yA5">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="47"/>
+                                    </constraint>
+                                    <constraint firstItem="si4-5G-Uco" firstAttribute="centerY" secondItem="7ZY-ZA-dpw" secondAttribute="centerY" id="GGm-Ln-Gdy">
+                                        <variation key="heightClass=regular" constant="1"/>
+                                    </constraint>
+                                    <constraint firstItem="6wW-w5-ABr" firstAttribute="top" secondItem="7ZY-ZA-dpw" secondAttribute="top" id="J0w-WP-NUm"/>
+                                    <constraint firstItem="5wV-wC-pxI" firstAttribute="centerY" secondItem="7ZY-ZA-dpw" secondAttribute="centerY" id="LOG-30-cEZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="si4-5G-Uco" secondAttribute="trailing" constant="8" id="SOr-Gg-1SU"/>
+                                    <constraint firstItem="6wW-w5-ABr" firstAttribute="leading" secondItem="7ZY-ZA-dpw" secondAttribute="leading" id="SVk-BV-zbC"/>
+                                    <constraint firstAttribute="trailing" secondItem="6wW-w5-ABr" secondAttribute="trailing" id="dsX-O0-loz"/>
+                                    <constraint firstItem="6wW-w5-ABr" firstAttribute="centerX" secondItem="7ZY-ZA-dpw" secondAttribute="centerX" id="pPV-fk-NoF"/>
+                                    <constraint firstAttribute="bottom" secondItem="6wW-w5-ABr" secondAttribute="bottom" id="txs-k9-WzP"/>
+                                    <constraint firstItem="5wV-wC-pxI" firstAttribute="leading" secondItem="7ZY-ZA-dpw" secondAttribute="leading" constant="47" id="wZ3-Of-de6">
+                                        <variation key="widthClass=compact" constant="48"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="SOr-Gg-1SU"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qaa-Nq-sbN">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_confirm_password" translatesAutoresizingMaskIntoConstraints="NO" id="tes-xt-OSV"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Access point password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBd-6W-8HE">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="WPX7SdNY" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dqo-t8-5bm">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="dqo-t8-5bm" secondAttribute="height" multiplier="8:1" id="6Y0-yB-Ulo"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="tes-xt-OSV" firstAttribute="centerX" secondItem="Qaa-Nq-sbN" secondAttribute="centerX" id="1Y9-KT-qm9"/>
+                                    <constraint firstItem="dqo-t8-5bm" firstAttribute="leading" secondItem="MBd-6W-8HE" secondAttribute="trailing" constant="11" id="2dm-Q8-45g"/>
+                                    <constraint firstItem="MBd-6W-8HE" firstAttribute="centerY" secondItem="Qaa-Nq-sbN" secondAttribute="centerY" id="3Gg-YL-TX4"/>
+                                    <constraint firstAttribute="bottom" secondItem="tes-xt-OSV" secondAttribute="bottom" id="3fN-09-P9m"/>
+                                    <constraint firstAttribute="trailing" secondItem="dqo-t8-5bm" secondAttribute="trailing" constant="8" id="HGw-wN-7Y9"/>
+                                    <constraint firstItem="tes-xt-OSV" firstAttribute="leading" secondItem="Qaa-Nq-sbN" secondAttribute="leading" id="NvK-vB-1Qq"/>
+                                    <constraint firstItem="dqo-t8-5bm" firstAttribute="centerY" secondItem="Qaa-Nq-sbN" secondAttribute="centerY" id="e84-AC-s0O">
+                                        <variation key="heightClass=regular" constant="1"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="tes-xt-OSV" secondAttribute="trailing" id="h1M-oF-Bdb"/>
+                                    <constraint firstItem="MBd-6W-8HE" firstAttribute="leading" secondItem="Qaa-Nq-sbN" secondAttribute="leading" constant="47" id="nSd-CZ-JQG">
+                                        <variation key="widthClass=compact" constant="48"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstItem="tes-xt-OSV" firstAttribute="top" secondItem="Qaa-Nq-sbN" secondAttribute="top" id="zlI-8Z-XVe"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HGw-wN-7Y9"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVs-o7-jWJ">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_confirm_password" translatesAutoresizingMaskIntoConstraints="NO" id="WDx-PN-39R"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="192.168.1.10" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uGl-kG-eWk">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="uGl-kG-eWk" secondAttribute="height" multiplier="8:1" id="5SB-DA-Swq"/>
+                                            <constraint firstAttribute="width" secondItem="uGl-kG-eWk" secondAttribute="height" multiplier="8:1" id="Qa3-mU-j7Q"/>
+                                        </constraints>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="Qa3-mU-j7Q"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geyser Ip:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4g-6O-Vsu">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="z4g-6O-Vsu" firstAttribute="centerY" secondItem="tVs-o7-jWJ" secondAttribute="centerY" id="057-Sv-wHb"/>
+                                    <constraint firstItem="uGl-kG-eWk" firstAttribute="centerY" secondItem="tVs-o7-jWJ" secondAttribute="centerY" id="SP5-yY-KVh"/>
+                                    <constraint firstAttribute="trailing" secondItem="WDx-PN-39R" secondAttribute="trailing" id="Sd7-52-jAA"/>
+                                    <constraint firstItem="z4g-6O-Vsu" firstAttribute="leading" secondItem="tVs-o7-jWJ" secondAttribute="leading" constant="47" id="WxM-ax-W5I">
+                                        <variation key="widthClass=compact" constant="48"/>
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="WDx-PN-39R" secondAttribute="bottom" id="alF-aq-rYG"/>
+                                    <constraint firstAttribute="trailing" secondItem="uGl-kG-eWk" secondAttribute="trailing" constant="8" id="eNS-7e-FEk"/>
+                                    <constraint firstItem="WDx-PN-39R" firstAttribute="centerX" secondItem="tVs-o7-jWJ" secondAttribute="centerX" id="jnh-O1-d9l"/>
+                                    <constraint firstItem="WDx-PN-39R" firstAttribute="leading" secondItem="tVs-o7-jWJ" secondAttribute="leading" id="qD1-qI-2wR"/>
+                                    <constraint firstItem="uGl-kG-eWk" firstAttribute="leading" secondItem="z4g-6O-Vsu" secondAttribute="trailing" constant="87" id="qVl-x1-jPh">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="114"/>
+                                    </constraint>
+                                    <constraint firstItem="WDx-PN-39R" firstAttribute="top" secondItem="tVs-o7-jWJ" secondAttribute="top" id="tj3-qT-Fga"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="eNS-7e-FEk"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96N-HX-9Ui">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Connect to GeyserIp" backgroundImage="geyser_get_started">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
+                                <connections>
+                                    <action selector="connectToGeyser:" destination="w1r-uJ-hwB" eventType="touchUpInside" id="fP1-Qz-r1M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzF-DA-hZl">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hzF-DA-hZl" secondAttribute="height" multiplier="13:2" id="tcL-eO-Hh1">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="-1"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Get Started" backgroundImage="geyser_get_started">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
+                                <connections>
+                                    <action selector="connectToServer:" destination="w1r-uJ-hwB" eventType="touchUpInside" id="nbr-zH-wcZ"/>
+                                    <segue destination="uX4-Du-reg" kind="show" id="eLO-g8-nGt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gH3-jj-hRV">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Configure Station Mode" backgroundImage="geyser_get_started">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
+                                <connections>
+                                    <action selector="configStationMode:" destination="w1r-uJ-hwB" eventType="touchUpInside" id="5rI-jL-hs2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gH3-jj-hRV" firstAttribute="trailing" secondItem="tVs-o7-jWJ" secondAttribute="trailing" id="0Cu-L3-Mvh"/>
+                            <constraint firstItem="hzF-DA-hZl" firstAttribute="top" secondItem="tVs-o7-jWJ" secondAttribute="bottom" constant="89" id="73g-ou-p7r"/>
+                            <constraint firstItem="Qaa-Nq-sbN" firstAttribute="trailing" secondItem="7ZY-ZA-dpw" secondAttribute="trailing" id="9oe-jq-0qz"/>
+                            <constraint firstItem="hzF-DA-hZl" firstAttribute="leading" secondItem="7ZY-ZA-dpw" secondAttribute="leading" id="BnB-gh-jLd"/>
+                            <constraint firstItem="gH3-jj-hRV" firstAttribute="top" secondItem="tVs-o7-jWJ" secondAttribute="bottom" constant="20" id="CMK-62-YN4"/>
+                            <constraint firstItem="96N-HX-9Ui" firstAttribute="height" secondItem="tVs-o7-jWJ" secondAttribute="height" id="De9-vl-67j"/>
+                            <constraint firstItem="tVs-o7-jWJ" firstAttribute="top" secondItem="Qaa-Nq-sbN" secondAttribute="bottom" constant="20" id="EGt-0o-uDp"/>
+                            <constraint firstItem="Qaa-Nq-sbN" firstAttribute="height" secondItem="7ZY-ZA-dpw" secondAttribute="height" id="FLM-Z2-3TH"/>
+                            <constraint firstItem="tVs-o7-jWJ" firstAttribute="leading" secondItem="7ZY-ZA-dpw" secondAttribute="leading" id="GMB-FN-4sE"/>
+                            <constraint firstItem="bmV-kx-FnK" firstAttribute="leading" secondItem="la6-8q-MUP" secondAttribute="leading" id="GdD-Z7-WBT"/>
+                            <constraint firstItem="gH3-jj-hRV" firstAttribute="leading" secondItem="96N-HX-9Ui" secondAttribute="trailing" id="Gvg-li-kTX"/>
+                            <constraint firstItem="Qaa-Nq-sbN" firstAttribute="top" secondItem="7ZY-ZA-dpw" secondAttribute="bottom" constant="20" id="JWb-Mw-dNh"/>
+                            <constraint firstItem="Qaa-Nq-sbN" firstAttribute="centerX" secondItem="la6-8q-MUP" secondAttribute="centerX" id="KPN-4x-ARb"/>
+                            <constraint firstItem="UHn-0w-TsC" firstAttribute="top" secondItem="bmV-kx-FnK" secondAttribute="bottom" id="LWk-E9-uOX"/>
+                            <constraint firstItem="hzF-DA-hZl" firstAttribute="height" secondItem="tVs-o7-jWJ" secondAttribute="height" id="NXW-de-Ili"/>
+                            <constraint firstItem="96N-HX-9Ui" firstAttribute="top" secondItem="tVs-o7-jWJ" secondAttribute="bottom" constant="20" id="U7t-0b-v54"/>
+                            <constraint firstItem="gH3-jj-hRV" firstAttribute="width" secondItem="96N-HX-9Ui" secondAttribute="width" id="UFZ-DN-BKD"/>
+                            <constraint firstItem="hzF-DA-hZl" firstAttribute="trailing" secondItem="7ZY-ZA-dpw" secondAttribute="trailing" id="W2i-l0-KCt"/>
+                            <constraint firstItem="hzF-DA-hZl" firstAttribute="width" secondItem="tVs-o7-jWJ" secondAttribute="width" id="XSF-Z5-LyU"/>
+                            <constraint firstItem="tVs-o7-jWJ" firstAttribute="trailing" secondItem="7ZY-ZA-dpw" secondAttribute="trailing" id="Xaj-bQ-kf7"/>
+                            <constraint firstItem="7ZY-ZA-dpw" firstAttribute="centerX" secondItem="la6-8q-MUP" secondAttribute="centerX" id="Y2Z-mi-xNi"/>
+                            <constraint firstItem="hzF-DA-hZl" firstAttribute="top" secondItem="gH3-jj-hRV" secondAttribute="bottom" constant="20" id="ad0-ST-gdy"/>
+                            <constraint firstItem="bmV-kx-FnK" firstAttribute="top" secondItem="la6-8q-MUP" secondAttribute="top" id="azP-3z-NqG"/>
+                            <constraint firstItem="gH3-jj-hRV" firstAttribute="height" secondItem="tVs-o7-jWJ" secondAttribute="height" id="bDV-aN-EUs"/>
+                            <constraint firstItem="96N-HX-9Ui" firstAttribute="leading" secondItem="tVs-o7-jWJ" secondAttribute="leading" id="crL-th-CeQ"/>
+                            <constraint firstItem="96N-HX-9Ui" firstAttribute="width" secondItem="tVs-o7-jWJ" secondAttribute="width" id="haI-nt-yvi"/>
+                            <constraint firstItem="Qaa-Nq-sbN" firstAttribute="leading" secondItem="7ZY-ZA-dpw" secondAttribute="leading" id="kdS-j1-gYL"/>
+                            <constraint firstItem="7ZY-ZA-dpw" firstAttribute="top" secondItem="skI-2n-7Rd" secondAttribute="bottom" constant="90" id="lcJ-TI-YhD">
+                                <variation key="heightClass=regular" constant="115"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="120"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="7ZY-ZA-dpw" secondAttribute="trailing" constant="120" id="o2b-TJ-q5O">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="bmV-kx-FnK" secondAttribute="trailing" id="qzn-uf-wfL"/>
+                            <constraint firstItem="tVs-o7-jWJ" firstAttribute="height" secondItem="Qaa-Nq-sbN" secondAttribute="height" id="rsB-84-j9k"/>
+                            <constraint firstItem="tVs-o7-jWJ" firstAttribute="centerX" secondItem="la6-8q-MUP" secondAttribute="centerX" id="x21-YM-Zg9"/>
+                            <constraint firstItem="7ZY-ZA-dpw" firstAttribute="leading" secondItem="la6-8q-MUP" secondAttribute="leadingMargin" constant="120" id="xlr-ID-9gA">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="hzF-DA-hZl" firstAttribute="centerX" secondItem="la6-8q-MUP" secondAttribute="centerX" id="yAx-sg-hkQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="haI-nt-yvi"/>
+                                <exclude reference="73g-ou-p7r"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="REGISTER" id="kAe-hS-JjV"/>
+                    <connections>
+                        <outlet property="configStationModeButton" destination="gH3-jj-hRV" id="NLr-hi-jyg"/>
+                        <outlet property="geyserIpButton" destination="96N-HX-9Ui" id="uVo-3a-MhT"/>
+                        <outlet property="geyserIpTextField" destination="uGl-kG-eWk" id="k1n-Hb-whe"/>
+                        <outlet property="passwordTextField" destination="dqo-t8-5bm" id="osH-tZ-6a7"/>
+                        <outlet property="ssidTextField" destination="si4-5G-Uco" id="dFt-eP-UAM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wW1-8v-zm6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2919" y="4222"/>
+        </scene>
+        <!--GEYSER-->
+        <scene sceneID="8x7-zb-iBr">
+            <objects>
+                <viewController id="uX4-Du-reg" customClass="TimerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T5b-ld-UlP"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jxv-T7-I8k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QbQ-No-bZA">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_bkg" translatesAutoresizingMaskIntoConstraints="NO" id="1GU-nt-UP9"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FY0-NB-vvj">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_geyser" translatesAutoresizingMaskIntoConstraints="NO" id="hdD-fm-XTV"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geyser 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCu-ct-u5y">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="16k-pt-abi">
+                                        <state key="normal" image="geyser_more"/>
+                                    </button>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LTJ-Mw-zR3">
+                                        <connections>
+                                            <action selector="onOffSwitchClick:" destination="uX4-Du-reg" eventType="touchUpInside" id="BVQ-77-VLl"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FY0-NB-vvj" secondAttribute="height" multiplier="13:2" id="0HU-5P-ipw">
+                                        <variation key="heightClass=regular" constant="2"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="hdD-fm-XTV" secondAttribute="bottom" id="4MO-bF-DQL"/>
+                                    <constraint firstAttribute="bottom" secondItem="16k-pt-abi" secondAttribute="bottom" id="74L-Rb-Ha4"/>
+                                    <constraint firstItem="NCu-ct-u5y" firstAttribute="centerY" secondItem="FY0-NB-vvj" secondAttribute="centerY" id="Bvf-Ci-PSS"/>
+                                    <constraint firstItem="hdD-fm-XTV" firstAttribute="leading" secondItem="FY0-NB-vvj" secondAttribute="leading" id="Ebr-K8-US5"/>
+                                    <constraint firstItem="hdD-fm-XTV" firstAttribute="top" secondItem="FY0-NB-vvj" secondAttribute="top" id="JkU-jV-uIv"/>
+                                    <constraint firstAttribute="trailing" secondItem="hdD-fm-XTV" secondAttribute="trailing" id="KoZ-C8-Xzr"/>
+                                    <constraint firstItem="16k-pt-abi" firstAttribute="top" secondItem="FY0-NB-vvj" secondAttribute="top" id="NuI-Z0-RYT"/>
+                                    <constraint firstItem="NCu-ct-u5y" firstAttribute="leading" secondItem="FY0-NB-vvj" secondAttribute="leading" constant="35" id="T3e-4c-V2Z">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="16k-pt-abi" secondAttribute="trailing" constant="17" id="T7j-Ic-pLE"/>
+                                    <constraint firstItem="LTJ-Mw-zR3" firstAttribute="centerY" secondItem="FY0-NB-vvj" secondAttribute="centerY" id="YgN-Uw-l6K"/>
+                                    <constraint firstItem="16k-pt-abi" firstAttribute="leading" secondItem="LTJ-Mw-zR3" secondAttribute="trailing" constant="12" id="tse-h1-w6U"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZEG-7i-48s">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_temperature" translatesAutoresizingMaskIntoConstraints="NO" id="Vxa-rl-Uin"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LL9-cA-1qn">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="35 deg" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50G-DR-ber">
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="253" horizontalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="10" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="yo7-Pb-Xgd">
+                                        <connections>
+                                            <action selector="temperatureValue:" destination="uX4-Du-reg" eventType="valueChanged" id="Gqq-Zd-sT8"/>
+                                        </connections>
+                                    </slider>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="LL9-cA-1qn" firstAttribute="centerY" secondItem="ZEG-7i-48s" secondAttribute="centerY" id="HWP-1L-v86"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vxa-rl-Uin" secondAttribute="trailing" id="Ifb-ON-hlT"/>
+                                    <constraint firstItem="Vxa-rl-Uin" firstAttribute="leading" secondItem="ZEG-7i-48s" secondAttribute="leading" id="MLp-l9-CHH"/>
+                                    <constraint firstItem="50G-DR-ber" firstAttribute="leading" secondItem="yo7-Pb-Xgd" secondAttribute="trailing" constant="5" id="P4C-6W-cue"/>
+                                    <constraint firstItem="yo7-Pb-Xgd" firstAttribute="leading" secondItem="LL9-cA-1qn" secondAttribute="trailing" constant="5" id="PNu-B9-eWz"/>
+                                    <constraint firstItem="50G-DR-ber" firstAttribute="centerY" secondItem="ZEG-7i-48s" secondAttribute="centerY" constant="1" id="RvF-GB-jbi"/>
+                                    <constraint firstItem="yo7-Pb-Xgd" firstAttribute="centerY" secondItem="ZEG-7i-48s" secondAttribute="centerY" id="Ts5-Ea-G7V"/>
+                                    <constraint firstItem="Vxa-rl-Uin" firstAttribute="top" secondItem="ZEG-7i-48s" secondAttribute="top" id="dns-qp-v1M"/>
+                                    <constraint firstItem="LL9-cA-1qn" firstAttribute="leading" secondItem="ZEG-7i-48s" secondAttribute="leading" constant="35" id="eCY-9r-8Mx">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="50G-DR-ber" secondAttribute="trailing" constant="5" id="lfK-PC-zNY"/>
+                                    <constraint firstItem="50G-DR-ber" firstAttribute="centerY" secondItem="ZEG-7i-48s" secondAttribute="centerY" constant="1" id="ty3-GC-k8Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="Vxa-rl-Uin" secondAttribute="bottom" id="zlc-WQ-SHT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8q-3P-Dr3">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_timer" translatesAutoresizingMaskIntoConstraints="NO" id="vfL-YZ-oYr"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sik-0K-Y7d">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="90" translatesAutoresizingMaskIntoConstraints="NO" id="gDM-cr-JlH">
+                                        <connections>
+                                            <action selector="timerValue:" destination="uX4-Du-reg" eventType="valueChanged" id="qof-zJ-9UR"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 min" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kP0-Yy-KCp">
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="gDM-cr-JlH" firstAttribute="leading" secondItem="Sik-0K-Y7d" secondAttribute="trailing" constant="17" id="2Gx-0U-C5r"/>
+                                    <constraint firstItem="kP0-Yy-KCp" firstAttribute="leading" secondItem="gDM-cr-JlH" secondAttribute="trailing" constant="5" id="37L-kx-hIA"/>
+                                    <constraint firstAttribute="trailing" secondItem="vfL-YZ-oYr" secondAttribute="trailing" id="3F4-u6-7LM"/>
+                                    <constraint firstItem="gDM-cr-JlH" firstAttribute="centerY" secondItem="P8q-3P-Dr3" secondAttribute="centerY" id="EcX-5W-n6U"/>
+                                    <constraint firstItem="vfL-YZ-oYr" firstAttribute="top" secondItem="P8q-3P-Dr3" secondAttribute="top" id="Eeg-eH-fLO"/>
+                                    <constraint firstItem="kP0-Yy-KCp" firstAttribute="centerY" secondItem="P8q-3P-Dr3" secondAttribute="centerY" id="IZl-fr-S0c"/>
+                                    <constraint firstItem="Sik-0K-Y7d" firstAttribute="leading" secondItem="P8q-3P-Dr3" secondAttribute="leading" constant="35" id="Idz-ae-xve">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="vfL-YZ-oYr" secondAttribute="bottom" id="Juf-Wh-eFn"/>
+                                    <constraint firstItem="vfL-YZ-oYr" firstAttribute="leading" secondItem="P8q-3P-Dr3" secondAttribute="leading" id="qkb-Bd-roG"/>
+                                    <constraint firstAttribute="trailing" secondItem="kP0-Yy-KCp" secondAttribute="trailing" constant="5" id="siW-JN-5Ye"/>
+                                    <constraint firstItem="Sik-0K-Y7d" firstAttribute="centerY" secondItem="P8q-3P-Dr3" secondAttribute="centerY" id="zPr-Vf-U4D"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgP-A5-WYB">
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Set Temperature and Timer" backgroundImage="geyser_get_started">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
+                                <connections>
+                                    <action selector="setTempAndTimer:" destination="uX4-Du-reg" eventType="touchUpInside" id="new-0f-tui"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ol-Jx-BMN">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_geyser" translatesAutoresizingMaskIntoConstraints="NO" id="kRR-FX-YXm"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Scheduler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00h-qB-Qi7">
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEj-P1-fU4">
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="geyser_forward"/>
+                                        <connections>
+                                            <segue destination="ukh-RN-geO" kind="show" id="DJa-V1-ec0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="kRR-FX-YXm" firstAttribute="leading" secondItem="1Ol-Jx-BMN" secondAttribute="leading" id="8qe-SE-lA9"/>
+                                    <constraint firstAttribute="trailing" secondItem="BEj-P1-fU4" secondAttribute="trailing" constant="20" id="8yO-1r-jOR"/>
+                                    <constraint firstAttribute="trailing" secondItem="kRR-FX-YXm" secondAttribute="trailing" id="Dkb-7Y-eiM"/>
+                                    <constraint firstAttribute="bottom" secondItem="kRR-FX-YXm" secondAttribute="bottom" id="HqY-pB-c2E"/>
+                                    <constraint firstItem="BEj-P1-fU4" firstAttribute="centerY" secondItem="1Ol-Jx-BMN" secondAttribute="centerY" id="IEE-qG-o7F"/>
+                                    <constraint firstItem="kRR-FX-YXm" firstAttribute="top" secondItem="1Ol-Jx-BMN" secondAttribute="top" id="bfg-e3-WSk"/>
+                                    <constraint firstItem="00h-qB-Qi7" firstAttribute="centerY" secondItem="1Ol-Jx-BMN" secondAttribute="centerY" id="e4y-2W-h54"/>
+                                    <constraint firstItem="00h-qB-Qi7" firstAttribute="leading" secondItem="1Ol-Jx-BMN" secondAttribute="leading" constant="35" id="u1k-Jq-lJl">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="60"/>
+                                    </constraint>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mgP-A5-WYB" firstAttribute="width" secondItem="P8q-3P-Dr3" secondAttribute="width" id="21t-wp-L8R"/>
+                            <constraint firstItem="P8q-3P-Dr3" firstAttribute="centerX" secondItem="QbQ-No-bZA" secondAttribute="centerX" id="6ai-oe-2dv"/>
+                            <constraint firstItem="ZEG-7i-48s" firstAttribute="trailing" secondItem="FY0-NB-vvj" secondAttribute="trailing" id="7ba-42-juk"/>
+                            <constraint firstItem="1Ol-Jx-BMN" firstAttribute="top" secondItem="mgP-A5-WYB" secondAttribute="bottom" constant="10" id="9NI-Io-0nb"/>
+                            <constraint firstItem="P8q-3P-Dr3" firstAttribute="width" secondItem="FY0-NB-vvj" secondAttribute="width" id="Dhq-kh-SnJ"/>
+                            <constraint firstItem="P8q-3P-Dr3" firstAttribute="top" secondItem="ZEG-7i-48s" secondAttribute="bottom" constant="10" id="FsM-4g-vLA">
+                                <variation key="heightClass=regular" constant="15"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="1Ol-Jx-BMN" firstAttribute="trailing" secondItem="FY0-NB-vvj" secondAttribute="trailing" id="IdY-GL-RhV"/>
+                            <constraint firstItem="mgP-A5-WYB" firstAttribute="centerX" secondItem="QbQ-No-bZA" secondAttribute="centerX" id="KFU-2z-VHk"/>
+                            <constraint firstAttribute="trailing" secondItem="FY0-NB-vvj" secondAttribute="trailing" constant="120" id="LaJ-j8-DHd">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="ZEG-7i-48s" firstAttribute="top" secondItem="FY0-NB-vvj" secondAttribute="bottom" constant="10" id="O0Q-j0-oBu">
+                                <variation key="heightClass=regular" constant="15"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="ZEG-7i-48s" firstAttribute="centerX" secondItem="QbQ-No-bZA" secondAttribute="centerX" id="O0S-Y8-di3"/>
+                            <constraint firstItem="1Ol-Jx-BMN" firstAttribute="centerX" secondItem="QbQ-No-bZA" secondAttribute="centerX" id="Pwn-aW-YOH"/>
+                            <constraint firstItem="1Ol-Jx-BMN" firstAttribute="width" secondItem="FY0-NB-vvj" secondAttribute="width" id="RAg-fX-imy"/>
+                            <constraint firstItem="ZEG-7i-48s" firstAttribute="width" secondItem="FY0-NB-vvj" secondAttribute="width" id="Tke-6i-aTg"/>
+                            <constraint firstItem="ZEG-7i-48s" firstAttribute="height" secondItem="FY0-NB-vvj" secondAttribute="height" id="U3E-o6-beO"/>
+                            <constraint firstItem="1GU-nt-UP9" firstAttribute="top" secondItem="QbQ-No-bZA" secondAttribute="top" id="VHa-aU-4A0"/>
+                            <constraint firstItem="P8q-3P-Dr3" firstAttribute="height" secondItem="FY0-NB-vvj" secondAttribute="height" id="W61-FZ-aHg"/>
+                            <constraint firstItem="P8q-3P-Dr3" firstAttribute="leading" secondItem="FY0-NB-vvj" secondAttribute="leading" id="XVg-wW-3Tl"/>
+                            <constraint firstItem="FY0-NB-vvj" firstAttribute="centerX" secondItem="QbQ-No-bZA" secondAttribute="centerX" id="YZg-lr-7dj"/>
+                            <constraint firstItem="1Ol-Jx-BMN" firstAttribute="height" secondItem="FY0-NB-vvj" secondAttribute="height" id="Z9M-G5-k7u"/>
+                            <constraint firstItem="ZEG-7i-48s" firstAttribute="leading" secondItem="FY0-NB-vvj" secondAttribute="leading" id="azV-si-hyL"/>
+                            <constraint firstItem="mgP-A5-WYB" firstAttribute="trailing" secondItem="P8q-3P-Dr3" secondAttribute="trailing" id="bFq-nC-ZzK"/>
+                            <constraint firstItem="P8q-3P-Dr3" firstAttribute="trailing" secondItem="FY0-NB-vvj" secondAttribute="trailing" id="e2T-Mo-wfM"/>
+                            <constraint firstItem="Jxv-T7-I8k" firstAttribute="top" secondItem="1GU-nt-UP9" secondAttribute="bottom" id="f8b-j8-Hue"/>
+                            <constraint firstItem="1Ol-Jx-BMN" firstAttribute="leading" secondItem="FY0-NB-vvj" secondAttribute="leading" id="fIp-rb-cPi"/>
+                            <constraint firstItem="1GU-nt-UP9" firstAttribute="leading" secondItem="QbQ-No-bZA" secondAttribute="leading" id="fu7-Ou-MLZ"/>
+                            <constraint firstItem="mgP-A5-WYB" firstAttribute="height" secondItem="P8q-3P-Dr3" secondAttribute="height" id="gys-Z4-ECR"/>
+                            <constraint firstItem="FY0-NB-vvj" firstAttribute="top" secondItem="T5b-ld-UlP" secondAttribute="bottom" constant="56" id="nUh-Qq-v6Q">
+                                <variation key="heightClass=regular" constant="120"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                            </constraint>
+                            <constraint firstItem="FY0-NB-vvj" firstAttribute="leading" secondItem="QbQ-No-bZA" secondAttribute="leading" constant="120" id="prt-FT-lbQ">
+                                <variation key="widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="1GU-nt-UP9" secondAttribute="trailing" id="q7w-J0-83b"/>
+                            <constraint firstItem="1Ol-Jx-BMN" firstAttribute="top" secondItem="P8q-3P-Dr3" secondAttribute="bottom" constant="10" id="rtk-s7-WYr">
+                                <variation key="heightClass=regular" constant="15"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="mgP-A5-WYB" firstAttribute="leading" secondItem="P8q-3P-Dr3" secondAttribute="leading" id="sOD-RI-Brq"/>
+                            <constraint firstItem="mgP-A5-WYB" firstAttribute="top" secondItem="P8q-3P-Dr3" secondAttribute="bottom" constant="10" id="vtO-It-gfa"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="rtk-s7-WYr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="GEYSER" id="jfi-a9-Gp5">
+                        <barButtonItem key="leftBarButtonItem" image="geyser_back_arrow" id="CLW-n8-w0b">
+                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="g34-Hh-hyB" kind="unwind" unwindAction="unwindToHome:" id="NIP-ci-dc6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="geyserNameLabel" destination="NCu-ct-u5y" id="wF8-Wy-aa4"/>
+                        <outlet property="moreButton" destination="16k-pt-abi" id="Tnn-0n-mdT"/>
+                        <outlet property="onOffSwitch" destination="LTJ-Mw-zR3" id="IcI-KI-CWq"/>
+                        <outlet property="temperatureLabel" destination="50G-DR-ber" id="RBf-tp-4sd"/>
+                        <outlet property="temperatureSlider" destination="yo7-Pb-Xgd" id="HOn-uo-xPl"/>
+                        <outlet property="timerLabel" destination="kP0-Yy-KCp" id="CtH-Wj-7Db"/>
+                        <outlet property="timerSlider" destination="gDM-cr-JlH" id="A71-Fc-g6z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aN5-ZY-4po" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="g34-Hh-hyB" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3716" y="4250"/>
+        </scene>
+        <!--SCHEDULER-->
+        <scene sceneID="OGp-d1-vPk">
+            <objects>
+                <viewController id="ukh-RN-geO" customClass="SchedulerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4eh-gX-meI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vna-JS-TpE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kb0-rX-eby">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="geyser_bkg" translatesAutoresizingMaskIntoConstraints="NO" id="Rlu-8H-r8O">
+                                <gestureRecognizers/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vUg-Mn-hXx">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="lMo-aI-fhX">
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Tsa-9H-Vwg">
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Once" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpB-BN-hyq">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        </variation>
+                                                        <variation key="widthClass=compact">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Daily" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B9b-tf-5j6">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        </variation>
+                                                        <variation key="widthClass=compact">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Mon-Fri" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9w-FW-QAR">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        </variation>
+                                                        <variation key="widthClass=compact">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Sat-Sun" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRe-MZ-9pj">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        </variation>
+                                                        <variation key="widthClass=compact">
+                                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <variation key="heightClass=regular" spacing="30"/>
+                                                <variation key="widthClass=compact">
+                                                    <mask key="subviews">
+                                                        <include reference="DpB-BN-hyq"/>
+                                                        <include reference="B9b-tf-5j6"/>
+                                                        <include reference="m9w-FW-QAR"/>
+                                                        <include reference="KRe-MZ-9pj"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" spacing="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" tag="50" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7g6-nJ-X2q">
+                                                <subviews>
+                                                    <stackView opaque="NO" tag="201" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="i2t-Nc-3Ml">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjl-ze-PIS">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXI-mG-fU7">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="IaH-qX-R3n"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="202" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tzA-7V-Fgv">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBc-la-F2R">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAD-9a-zH2">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="xTL-k6-Vda"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="203" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zCe-9x-sNB">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="db2-k8-k2m">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgj-O3-sSq">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="ccy-ld-kvU"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="204" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kw1-XT-UXA">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSx-Pr-RTL">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07P-xu-sgu">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="osa-g5-aqD"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                        <variation key="heightClass=regular-widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <variation key="heightClass=regular" spacing="30"/>
+                                                <variation key="widthClass=compact" spacing="10">
+                                                    <mask key="subviews">
+                                                        <include reference="i2t-Nc-3Ml"/>
+                                                        <include reference="tzA-7V-Fgv"/>
+                                                        <include reference="zCe-9x-sNB"/>
+                                                        <include reference="kw1-XT-UXA"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" spacing="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" tag="100" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="UdS-7v-7AD">
+                                                <subviews>
+                                                    <stackView opaque="NO" tag="206" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zAp-u0-omQ">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="106" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6G-Ov-Y5u">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyD-Ny-UiB">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="fnX-0W-twq"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="207" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XKM-LD-Cfh">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="107" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZWO-12-wao">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FL-g5-ghI">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="jdh-CE-suC"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="208" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="45V-vd-vs1">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="108" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jO-Tw-b0A">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38Z-Wa-ypZ">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="UKw-6h-Zbr"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="209" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4KK-eC-ik5">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="109" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puv-xd-MNi">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGK-Rp-9VN">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="fvF-zy-g3M"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <variation key="heightClass=regular" spacing="30"/>
+                                                <variation key="widthClass=compact" spacing="10">
+                                                    <mask key="subviews">
+                                                        <include reference="zAp-u0-omQ"/>
+                                                        <include reference="XKM-LD-Cfh"/>
+                                                        <include reference="45V-vd-vs1"/>
+                                                        <include reference="4KK-eC-ik5"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" spacing="25"/>
+                                            </stackView>
+                                            <stackView opaque="NO" tag="150" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gAH-W1-Ex7">
+                                                <subviews>
+                                                    <stackView opaque="NO" tag="211" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dFK-Se-2SJ">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="111" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgR-YL-SuR">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHX-5e-IOk">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="S06-Qs-yp3"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="212" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="I1G-P0-RiN">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="112" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tL-zw-3zt">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mA8-2b-EVS">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="3Oj-EI-jPt"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="213" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xqc-3S-hAz">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="113" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7y-0Y-9ZO">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhR-Sn-nEB">
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="Y1V-5f-rF0"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                    <stackView opaque="NO" tag="214" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3zs-xr-acP">
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" tag="114" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temp:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaQ-vv-A9s">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=regular">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                </variation>
+                                                                <variation key="widthClass=compact">
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                                </variation>
+                                                            </label>
+                                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TfB-Ol-kKd">
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <state key="normal" image="geyser_down_arrow"/>
+                                                                <connections>
+                                                                    <action selector="dropDownClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="8ge-3e-Hcm"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <variation key="widthClass=compact" spacing="5"/>
+                                                    </stackView>
+                                                </subviews>
+                                                <variation key="heightClass=regular" spacing="30"/>
+                                                <variation key="widthClass=compact" spacing="10">
+                                                    <mask key="subviews">
+                                                        <include reference="dFK-Se-2SJ"/>
+                                                        <include reference="I1G-P0-RiN"/>
+                                                        <include reference="xqc-3S-hAz"/>
+                                                        <include reference="3zs-xr-acP"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=compact" spacing="25"/>
+                                            </stackView>
+                                        </subviews>
+                                        <variation key="heightClass=regular" distribution="fillEqually"/>
+                                        <variation key="widthClass=compact" spacing="10">
+                                            <mask key="subviews">
+                                                <include reference="Tsa-9H-Vwg"/>
+                                                <include reference="7g6-nJ-X2q"/>
+                                                <include reference="UdS-7v-7AD"/>
+                                                <include reference="gAH-W1-Ex7"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact" distribution="fillEqually" spacing="5"/>
+                                        <variation key="heightClass=regular-widthClass=regular" distribution="fillEqually"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="lMo-aI-fhX" secondAttribute="trailing" constant="20" id="2cI-4d-CBD">
+                                        <variation key="widthClass=compact" constant="5"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                    </constraint>
+                                    <constraint firstItem="lMo-aI-fhX" firstAttribute="leading" secondItem="vUg-Mn-hXx" secondAttribute="leading" constant="20" id="PmX-rZ-wgm">
+                                        <variation key="widthClass=compact" constant="5"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                    </constraint>
+                                    <constraint firstItem="lMo-aI-fhX" firstAttribute="top" secondItem="vUg-Mn-hXx" secondAttribute="top" constant="20" id="ihH-Ai-Uaj">
+                                        <variation key="widthClass=compact" constant="5"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                    </constraint>
+                                    <constraint firstAttribute="bottom" secondItem="lMo-aI-fhX" secondAttribute="bottom" constant="20" id="qUn-Pc-Lr8">
+                                        <variation key="widthClass=compact" constant="5"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                    </constraint>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1An-TC-3az">
+                                <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                                <state key="normal" title="Refresh Schedules">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="widthClass=compact">
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                </variation>
+                                <connections>
+                                    <action selector="viewSchedulesClick:" destination="ukh-RN-geO" eventType="touchUpInside" id="dMX-30-6LT"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="m2k-ba-8GU">
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rlu-8H-r8O" firstAttribute="leading" secondItem="Kb0-rX-eby" secondAttribute="leadingMargin" constant="-20" id="1QO-bL-dcB"/>
+                            <constraint firstItem="Vna-JS-TpE" firstAttribute="top" secondItem="Rlu-8H-r8O" secondAttribute="bottom" id="J28-2g-16T"/>
+                            <constraint firstItem="1An-TC-3az" firstAttribute="leading" secondItem="vUg-Mn-hXx" secondAttribute="leading" id="Myn-Db-PSS"/>
+                            <constraint firstItem="vUg-Mn-hXx" firstAttribute="top" secondItem="4eh-gX-meI" secondAttribute="bottom" constant="40" id="PB1-dF-r0U">
+                                <variation key="widthClass=compact" constant="20"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                            </constraint>
+                            <constraint firstItem="1An-TC-3az" firstAttribute="top" secondItem="vUg-Mn-hXx" secondAttribute="bottom" constant="15" id="S3W-14-4Dm">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="Rlu-8H-r8O" firstAttribute="top" secondItem="Kb0-rX-eby" secondAttribute="topMargin" id="VCw-bW-Aq3"/>
+                            <constraint firstItem="m2k-ba-8GU" firstAttribute="top" secondItem="1An-TC-3az" secondAttribute="bottom" constant="15" id="XLu-fu-8qE">
+                                <variation key="widthClass=compact" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="vUg-Mn-hXx" firstAttribute="leading" secondItem="Kb0-rX-eby" secondAttribute="leading" constant="20" id="ZiL-QZ-vfl">
+                                <variation key="widthClass=compact" constant="10"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstItem="Vna-JS-TpE" firstAttribute="top" secondItem="m2k-ba-8GU" secondAttribute="bottom" constant="45" id="b2D-F1-jm5">
+                                <variation key="widthClass=compact" constant="15"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="m2k-ba-8GU" firstAttribute="leading" secondItem="vUg-Mn-hXx" secondAttribute="leading" id="eCj-5Z-pnb"/>
+                            <constraint firstAttribute="trailing" secondItem="vUg-Mn-hXx" secondAttribute="trailing" constant="20" id="erT-zg-NUA">
+                                <variation key="widthClass=compact" constant="10"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="15"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rlu-8H-r8O" secondAttribute="trailing" constant="-20" id="gYk-vC-GVr"/>
+                            <constraint firstItem="vUg-Mn-hXx" firstAttribute="centerX" secondItem="Kb0-rX-eby" secondAttribute="centerX" id="qxG-7X-ugB"/>
+                            <constraint firstItem="m2k-ba-8GU" firstAttribute="trailing" secondItem="vUg-Mn-hXx" secondAttribute="trailing" id="uwK-7L-Cvc"/>
+                        </constraints>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="m2k-ba-8GU"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="SCHEDULER" id="DQX-w2-DhU">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="WxU-er-pbn">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="EG1-K0-FIz" kind="unwind" unwindAction="unwindToGeyser:" id="lbE-Mf-DWJ"/>
+                            </connections>
+                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Save" id="m0g-sv-n0U">
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="saveClick:" destination="ukh-RN-geO" id="zTx-Lb-aR3"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Clear" id="8y0-4G-p64">
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="clearValues:" destination="ukh-RN-geO" id="dYY-6O-kmW"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="scheduleTableView" destination="m2k-ba-8GU" id="9sP-aN-7Jc"/>
+                        <outlet property="topLevelStackView" destination="lMo-aI-fhX" id="E7e-yq-e8R"/>
+                        <outlet property="topLevelView" destination="vUg-Mn-hXx" id="Oa7-Je-Qgr"/>
+                        <outlet property="viewSchedulesButton" destination="1An-TC-3az" id="hcF-mE-ENd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjS-N7-taA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="EG1-K0-FIz" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="4380" y="4240"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0s7-PH-hVS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tic-15-45h" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xFV-hD-7Gg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.14901960780000001" green="0.43921568630000002" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="w1r-uJ-hwB" kind="relationship" relationship="rootViewController" id="JKH-Cu-Umd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCE-Nt-Vwp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107" y="4222"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="geyser_back_arrow" width="6" height="11"/>
+        <image name="geyser_bkg" width="375" height="666"/>
+        <image name="geyser_confirm_password" width="280" height="46"/>
+        <image name="geyser_down_arrow" width="12" height="12"/>
+        <image name="geyser_forward" width="16" height="16"/>
+        <image name="geyser_get_started" width="284" height="46"/>
+        <image name="geyser_geyser" width="333" height="34"/>
+        <image name="geyser_more" width="3" height="12"/>
+        <image name="geyser_ssid" width="280" height="46"/>
+        <image name="geyser_temperature" width="333" height="34"/>
+        <image name="geyser_timer" width="333" height="34"/>
+    </resources>
+</document>
